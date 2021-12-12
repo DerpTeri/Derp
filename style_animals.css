@@ -1,0 +1,118 @@
+/* css template*/
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Roboto+Mono:ital@1&display=swap');
+
+body{
+	font-family: 'Roboto Mono', monospace;
+	background-color: darkcyan;
+	font-size: 20px;
+}
+
+nav{
+	font-family: 'Montagu Slab', serif;
+	background-color:  royalblue;
+	border-top: solid;
+	border-right: solid;
+	border-bottom: solid;
+	border-left: solid;
+	border-color: ;
+	text-align: center;
+}
+
+/* Vertical Nav bar*/
+
+nav ul{
+	list-style-type: :none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: skyblue;
+}
+nav a:visited{
+	color: darkblue;
+}
+nav a:hover{
+	color: darkslateblue;
+}
+nav a:active{
+	color: black;
+}
+/* small gallery */
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+/* code for the images*/
+
+cute-red-fox{
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	height: auto;
+
+}
+/* CSS for Icons */
+i.fa{
+	color: blue;
+	font-size: 100px;
+}
+/* icon text */
+footer p a:link{
+	color: blue;
+	font-size: 25px;
+}
+footer p a:visited{
+	color: darkblue;
+}
+footer p a:hover{
+	color: lightblue;
+}
+footer p a:active{
+	color: black;
+}
+
+/* For tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* For Phones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}

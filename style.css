@@ -1,0 +1,180 @@
+@import url('https: //fonts.googleapis.com/css2?family=Montserrat: ital,wght@0,300;1,300;1,600&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 0;
+	background-color: darkorange;
+}
+
+/* Home elements */
+.intro
+{
+	text-align: center;
+	margin: 0 auto;
+	font-size: 40px;
+}
+
+/* Header elements */
+header img{
+	margin:0 auto;
+	display:block;
+}
+
+/* Main Section elements */
+
+main{
+	padding: 20px;
+	float: center;
+	margin:0 auto;
+}
+table{
+  border-collapse: collapse;
+  margin:0 auto;
+}
+td, th{
+  border: 1px solid darkred;
+  padding: 5px;
+}
+th{
+  background-color: red;
+  color: white;
+}
+
+/* form elements */
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: lightgray;
+}
+.logo{
+margin: 0 auto;
+display:block;
+}
+
+/* Portfolio elements */
+.animals{
+	display: block;
+	margin-right: 250px;
+	height: 500px;
+	width: 600px;
+	background: url(images/animals.png);
+}
+.puppies{
+	display: block;
+	margin-left: 250px;
+	height: 500px;
+	width: 600px;
+	background: url(images/puppies.png);
+}
+.me{
+	display: block;
+	margin: 0;
+	width: 462px;
+  height: 340px;
+    background: url("images/derpteri.png");
+}
+.website-text{
+	text-size: 50px;
+	margin: 0 auto;
+	line-height: 100px;
+
+}
+/* Vertical Navigation bar */
+
+nav ul{
+	text-align: center;
+	padding: 8px;
+	margin:0 auto;
+}
+
+nav li{
+	display:  inline;
+}
+
+nav a{
+	text-decoration:  none;
+	padding-right: 8px;
+}
+
+nav a:link{
+	color:  purple;
+}
+
+nav a:visited{
+	color:  pink;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+nav a:active{
+	color: black;
+}
+/* CSS for Icons */
+i.fa{
+	color: black;
+	font-size: 100px;
+	padding-top: ;
+}
+
+footer{
+	text-align: center;
+	background-color: orange;
+}
+}
+.copyright{
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.container-fluid{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+}
+.links{
+	color: red;
+	font-size: 50px;
+
+}
+/* icon text */
+footer p a:link{
+	color: black;
+	font-size: 25px;
+}
+footer p a:visited{
+	color: darkred;
+}
+footer p a:hover{
+	color: yellow;
+}
+footer p a:active{
+	color: darkgray;
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width:  768px){
+	h1{
+		font-size:  1.5em;
+	}
+}

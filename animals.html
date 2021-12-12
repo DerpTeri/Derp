@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Animals Photography</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">  <!-- bootstrap stylesheet -->
+	<link rel="stylesheet" href="style_animals.css"> <!-- base stylesheet -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- font awesome -->
+	<link rel="stylesheet" type="text/css" href="my-css-framework.css"> <!-- fonts -->
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="portfolio.html">Photos</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<!-- bootstrap table -->
+		<div class="container-fluid">
+			<div class="row">
+				<!-- fox code -->
+				<div class="col-sm-12"><img class="cute-red-fox" src="images/whatdoesthefoxsay.jpg" alt="cute red fox" height="400" width="1200"></img></div>
+				<div class="col-sm-2"><i class="fa fa-camera-retro" aria-hidden="true"></i></div>
+				<div class="col-sm-6"><p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.</p>
+
+						<!--Knuckles the echidna preview code -->
+				<div class="gallery">
+   					<div class="preview">
+       					<img id="preview" src="images/ugandaknuckles.png" style="display:block;margin:0 auto;" alt="a red echidna"  height="480" width="640"/>
+       					<!-- Small Gallery -->
+   					 </div>
+    					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+       					<img onclick="document.getElementById('preview').src=document.getElementById('bunny').src" id="bunny" src="images/bigchungus.jpg" alt="A fluffy bunny" />
+       					<img onclick="document.getElementById('preview').src= document.getElementById('goat').src;" id="goat" src="images/cocogoat.jpg" alt="A white goat"  />
+     			    	<img onclick="document.getElementById('preview').src = document.getElementById('fox').src;" id="fox" src="images/foxhero.jpg" alt="A red fox" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('eagle').src;" id="eagle" src="images/freedom.jpg" alt="A bald eagle" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('otter').src;" id="otter" src="images/dug.jpg" alt="An otter"  />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('frog').src;" id="frog" src="images/wednesdayfrog.jpg" alt="A green tree frog" />
+        				<img onclick="document.getElementById('preview').src = document.getElementById('stag').src;" id="stag" src="images/mrdeer.jpg" alt="A wild stag" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('lizard').src;" id="lizard" src="images/rainbow.jpg" alt="A blue lizard" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('hedgehog').src;" id="hedgehog" src="images/sanicthehedgehog.jpg" alt="A hedgehog" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('turtle').src;" id="turtle" src="images/jeanpierrepolnareff.jpg" alt="A sea turtle" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('spider').src;" id="spider" src="images/parker.jpg" alt="A hairy spider" />
+       					<img onclick="document.getElementById('preview').src = document.getElementById('bull').src;" id="bull" src="images/earthshaker.jpg" alt="A brown bull" />
+    				</div>
+				</div>
+			</div>
+		</div>
+	</table>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<p><a href="https://www.facebook.com/DarknessMyFRND" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i>
+						Facebook</a></p>
+					</div>
+					<div class="col-sm-4">
+					<p><a href="https://steamcommunity.com/id/TeRiRist"><i class="fa fa-steam-square" aria-hidden="true"></i>Steam</a></p>
+				</div>
+			</div>
+		</div>
+		<small>&copy; All rights reserved</small>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+</body>
+</html>
