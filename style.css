@@ -78,9 +78,7 @@ display:block;
 .me{
 	display: block;
 	margin: 0;
-	width: 462px;
-  height: 340px;
-    background: url("images/derpteri.png");
+	size: 100%;
 }
 .website-text{
 	text-size: 50px;
