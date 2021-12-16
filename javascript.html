@@ -29,12 +29,8 @@
             <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
             <li class="nav-item active"><a class="nav-link" href="resume.html">Resume</a></li>
-            <li class="nav-item active"><a class="nav-link" href="table.html">Table</a></li>
-            <li class="nav-item active"><a class="nav-link" href="form.html">Form</a></li>
             <li class="nav-item active"><a class="nav-link" href="multimedia.html">Multimedia</a></li>
-            <li class="nav-item active"><a class="nav-link" href="Javascript.html">Javascript</a></li>
-            <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item active"><a class="nav-link" href="Contact.html">Contact</a></li>     
+            <li class="nav-item active"><a class="nav-link" href="Javascript.html">Javascript</a></li>     
         </ul>
     
     </div>
@@ -46,7 +42,17 @@
    <div class="game-controls">
       <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">FLAP</button>
    </div>
-
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-8">
+                <div class="intro"><h1>This is a javascript game example made only for the purpose of understanding the code's structure. If you are interested with the code, you can check this <a href="https://www.w3schools.com/graphics/game_intro.asp" target= "_self">link.</a></h1>
+                  <p>P.S. I tweaked a few values regarding the game's mechanics and it is meant to be hard! (My highest score was 1200 btw)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
   </main>
   <script>
       var myGamePiece;
@@ -85,8 +91,8 @@
           this.speedY = 0;    
           this.x = x;
           this.y = y;
-          this.gravity = 10;
-          this.gravitySpeed = 100;
+          this.gravity = 1;
+          this.gravitySpeed = 10;
           this.update = function() {
               ctx = myGameArea.context;
               if (this.type == "text") {
